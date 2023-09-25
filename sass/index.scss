@@ -18,6 +18,10 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    text-wrap: balance;
+}
+
 //* Greeting and intro
 .greeting {
     width: 100%;
@@ -68,7 +72,8 @@ h1 {
 
 //* First Question
 .firstques,
-.secondques {
+.secondques,
+.thirdques {
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -76,19 +81,26 @@ h1 {
     display: grid;
     place-items: center;
 
+    &__container {
+        button {
+            margin-top: 10%;
+        }
+    }
+
     h2 {
         font-size: clamp(1rem, 5vw, 3.3125rem);
         color: var(--text-slate);
     }
 
     p {
-        margin-top: 25px;
+        margin: 25px 0;
         color: var(--text-slate);
+        font-weight: bold;
     }
 
     &__options {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1rem;
         text-align: center;
 

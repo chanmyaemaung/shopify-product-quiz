@@ -87,6 +87,10 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  text-wrap: balance;
+}
+
 .greeting {
   width: 100%;
   min-height: 100vh;
@@ -137,38 +141,50 @@ h1 {
 }
 
 .firstques,
-.secondques {
+.secondques,
+.thirdques {
   width: 100%;
   min-height: 100vh;
   position: relative;
   display: grid;
   place-items: center;
 }
+.firstques__container button,
+.secondques__container button,
+.thirdques__container button {
+  margin-top: 10%;
+}
 .firstques h2,
-.secondques h2 {
+.secondques h2,
+.thirdques h2 {
   font-size: clamp(1rem, 5vw, 3.3125rem);
   color: var(--text-slate);
 }
 .firstques p,
-.secondques p {
-  margin-top: 25px;
+.secondques p,
+.thirdques p {
+  margin: 25px 0;
   color: var(--text-slate);
+  font-weight: bold;
 }
 .firstques__options,
-.secondques__options {
+.secondques__options,
+.thirdques__options {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
   text-align: center;
 }
 @media screen and (max-width: 980px) {
   .firstques__options,
-  .secondques__options {
+  .secondques__options,
+  .thirdques__options {
     grid-template-columns: 1fr;
   }
 }
 .firstques li,
-.secondques li {
+.secondques li,
+.thirdques li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,7 +207,8 @@ h1 {
 }
 @media screen and (max-width: 980px) {
   .firstques li,
-  .secondques li {
+  .secondques li,
+  .thirdques li {
     width: 100%;
   }
 }

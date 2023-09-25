@@ -14,6 +14,11 @@ class ClQuiz {
     this.secondOptions = document.querySelectorAll("[data-second-options] li");
     this.secondQuesNextBtn = document.querySelector("[data-secondquest-next]");
 
+    //* Third question
+    this.thirdQues = document.querySelector("[data-thirdques]");
+    this.thirdOptions = document.querySelectorAll("[data-third-options] li");
+    this.thirdQuesNextBtn = document.querySelector("[data-thirdquest-next]");
+
     //* Initiate the app
     this.init();
   }
@@ -25,6 +30,7 @@ class ClQuiz {
     this.getStarted();
     this.firstQuestions();
     this.secondQuestions();
+    this.thirdQuestions();
   }
 
   data() {
@@ -63,6 +69,12 @@ class ClQuiz {
     } else {
       this.secondQuesNextBtn.classList.add("cl--visually-hidden");
     }
+
+    if (userChoose.third.length > 0) {
+      this.thirdQuesNextBtn.classList.remove("cl--visually-hidden");
+    } else {
+      this.thirdQuesNextBtn.classList.add("cl--visually-hidden");
+    }
   }
 
   firstQuestions() {
@@ -90,12 +102,13 @@ class ClQuiz {
         });
       });
 
-      // When click next button then hide first question and show second question
-      this.fistQuesNextBtn && this.fistQuesNextBtn.addEventListener("click", (event) => {
+    // When click next button then hide first question and show second question
+    this.fistQuesNextBtn &&
+      this.fistQuesNextBtn.addEventListener("click", (event) => {
         event.stopPropagation();
         this.firstQues.classList.add("cl--hide");
         this.secondQues.classList.remove("cl--hide");
-      })
+      });
   }
 
   secondQuestions() {
@@ -117,6 +130,40 @@ class ClQuiz {
             option.classList.remove("cl--active");
             option.removeAttribute("disabled"); // Enable the option when unselected
             userChoose.second = [];
+          }
+
+          this.checkAndShowNextButton(); // Check if the next button should be shown
+        });
+      });
+
+    // When click next button then hide second question and show third question
+    this.secondQuesNextBtn &&
+      this.secondQuesNextBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        this.secondQues.classList.add("cl--hide");
+        this.thirdQues.classList.remove("cl--hide");
+      });
+  }
+
+  thirdQuestions() {
+    this.thirdOptions &&
+      this.thirdOptions.forEach((option) => {
+        const id = option.getAttribute("data-key");
+        const label = option.textContent;
+        option.addEventListener("click", (event) => {
+          if (!option.classList.contains("cl--active")) {
+            // Remove the "cl--active" class from all options
+            this.thirdOptions.forEach((otherOption) => {
+              otherOption.classList.remove("cl--active");
+              otherOption.setAttribute("disabled", true); // Disable all other options
+            });
+
+            option.classList.add("cl--active");
+            userChoose.third = [{ id, label }]; // Replace the previous selection
+          } else {
+            option.classList.remove("cl--active");
+            option.removeAttribute("disabled"); // Enable the option when unselected
+            userChoose.third = [];
           }
 
           this.checkAndShowNextButton(); // Check if the next button should be shown
