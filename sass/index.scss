@@ -90,6 +90,7 @@ h2 {
     h2 {
         font-size: clamp(1rem, 5vw, 3.3125rem);
         color: var(--text-slate);
+        text-transform: uppercase;
     }
 
     p {
