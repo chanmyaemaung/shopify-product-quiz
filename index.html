@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Quiz</title>
+    <link rel="stylesheet" href="./assets/css/index.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="greeting" data-greeting>
+        <div class="intro" data-intro>
+          <h1>Product Quiz Recommendation</h1>
+          <button data-getstarted-btn>Get Started</button>
+        </div>
+      </div>
+
+      <!-- begin::First Question -->
+      <div class="firstques cl--hide" data-firstques>
+        <div class="firstques__container">
+          <h2>What frame style do you prefer?</h2>
+          <p>Select One</p>
+          <ul class="firstques__options" data-first-options>
+            <li data-key="1">Leggero</li>
+            <li data-key="2">Dolomite</li>
+            <li data-key="3">Classic</li>
+            <li data-key="4">Viale</li>
+            <li data-key="5">Teton</li>
+          </ul>
+          <button data-firstquest-next class="cl--visually-hidden">Next Quiz</button>
+        </div>
+      </div>
+      <!-- end::First Question -->
+
+      <!-- begin::Second Question -->
+      <div class="secondques cl--hide" data-secondques>
+        <div class="secondques__container">
+          <h2>What color frames do you want?</h2>
+          <p>Select One</p>
+          <ul class="secondques__options" data-second-options>
+            <li data-key="1">TORTOISE</li>
+            <li data-key="2">CHARCOAL</li>
+            <li data-key="3">TORTOISE</li>
+            <li data-key="4">CHARCOAL</li>
+            <li data-key="5">RADAVIST KELP</li>
+            <li data-key="6">TORTOISE</li>
+            <li data-key="7">MATTE BROWN</li>
+            <li data-key="8">DUSK</li>
+            <li data-key="9">HONEY</li>
+          </ul>
+          <button data-secondquest-next class="cl--visually-hidden">Next Quiz</button>
+        </div>
+      </div>
+      <!-- end::First Question -->
+    </div>
+
+    <script src="./quiz.js"></script>
+  </body>
+</html>
