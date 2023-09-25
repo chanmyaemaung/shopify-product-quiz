@@ -87,21 +87,21 @@ h1 {
     }
 
     &__options {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 1rem;
-        margin-top: 35px;
-        margin-bottom: 35px;
+        text-align: center;
 
         @media screen and (max-width: 980px) {
-            flex-wrap: wrap;
+            grid-template-columns: 1fr;
         }
-
     }
 
     li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         border: 1px solid #333;
         width: 150px;
         padding: 1rem;
