@@ -3,8 +3,8 @@
 @use 'utils';
 
 .container {
-    max-width: 81.25rem;
-    width: 100%;
+    max-width: 95%;
+    width: 81.25rem;
     margin-inline: auto;
     padding: .3125rem;
 
@@ -73,7 +73,12 @@ h2 {
 //* First Question
 .firstques,
 .secondques,
-.thirdques {
+.thirdques,
+.fourthques,
+.fifthques,
+.sixthques,
+.seventhques,
+.product-result {
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -83,12 +88,12 @@ h2 {
 
     &__container {
         button {
-            margin-top: 10%;
+            margin-top: 5%;
         }
     }
 
     h2 {
-        font-size: clamp(1rem, 5vw, 3.3125rem);
+        font-size: clamp(1rem, 5vw, 2.1875rem);
         color: var(--text-slate);
         text-transform: uppercase;
     }
@@ -116,8 +121,10 @@ h2 {
         align-items: center;
 
         border: 1px solid #333;
-        width: 150px;
+        max-width: 250px;
+        width: 100%;
         padding: 1rem;
+        text-transform: uppercase;
         // Inset box shadow
         box-shadow: 1px 1px 3px .125rem var(--primary-bg-color);
         border: 1px solid var(--primary-bg-color);
@@ -154,4 +161,8 @@ button {
     &:active {
         transform: translateY(3px);
     }
+}
+
+[data-seventhques-prev] {
+    float: left;
 }

@@ -71,8 +71,8 @@ img {
 }
 
 .container {
-  max-width: 81.25rem;
-  width: 100%;
+  max-width: 95%;
+  width: 81.25rem;
   margin-inline: auto;
   padding: 0.3125rem;
 }
@@ -142,7 +142,12 @@ h2 {
 
 .firstques,
 .secondques,
-.thirdques {
+.thirdques,
+.fourthques,
+.fifthques,
+.sixthques,
+.seventhques,
+.product-result {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -151,26 +156,46 @@ h2 {
 }
 .firstques__container button,
 .secondques__container button,
-.thirdques__container button {
-  margin-top: 10%;
+.thirdques__container button,
+.fourthques__container button,
+.fifthques__container button,
+.sixthques__container button,
+.seventhques__container button,
+.product-result__container button {
+  margin-top: 5%;
 }
 .firstques h2,
 .secondques h2,
-.thirdques h2 {
-  font-size: clamp(1rem, 5vw, 3.3125rem);
+.thirdques h2,
+.fourthques h2,
+.fifthques h2,
+.sixthques h2,
+.seventhques h2,
+.product-result h2 {
+  font-size: clamp(1rem, 5vw, 2.1875rem);
   color: var(--text-slate);
   text-transform: uppercase;
 }
 .firstques p,
 .secondques p,
-.thirdques p {
+.thirdques p,
+.fourthques p,
+.fifthques p,
+.sixthques p,
+.seventhques p,
+.product-result p {
   margin: 25px 0;
   color: var(--text-slate);
   font-weight: bold;
 }
 .firstques__options,
 .secondques__options,
-.thirdques__options {
+.thirdques__options,
+.fourthques__options,
+.fifthques__options,
+.sixthques__options,
+.seventhques__options,
+.product-result__options {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
@@ -179,13 +204,23 @@ h2 {
 @media screen and (max-width: 980px) {
   .firstques__options,
   .secondques__options,
-  .thirdques__options {
+  .thirdques__options,
+  .fourthques__options,
+  .fifthques__options,
+  .sixthques__options,
+  .seventhques__options,
+  .product-result__options {
     grid-template-columns: 1fr;
   }
 }
 .firstques li,
 .secondques li,
-.thirdques li {
+.thirdques li,
+.fourthques li,
+.fifthques li,
+.sixthques li,
+.seventhques li,
+.product-result li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,8 +231,10 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   border: 1px solid #333;
-  width: 150px;
+  max-width: 250px;
+  width: 100%;
   padding: 1rem;
+  text-transform: uppercase;
   -webkit-box-shadow: 1px 1px 3px 0.125rem var(--primary-bg-color);
           box-shadow: 1px 1px 3px 0.125rem var(--primary-bg-color);
   border: 1px solid var(--primary-bg-color);
@@ -209,7 +246,12 @@ h2 {
 @media screen and (max-width: 980px) {
   .firstques li,
   .secondques li,
-  .thirdques li {
+  .thirdques li,
+  .fourthques li,
+  .fifthques li,
+  .sixthques li,
+  .seventhques li,
+  .product-result li {
     width: 100%;
   }
 }
@@ -236,4 +278,8 @@ button:hover {
 button:active {
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
+}
+
+[data-seventhques-prev] {
+  float: left;
 }
