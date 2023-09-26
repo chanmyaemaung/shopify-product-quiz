@@ -175,6 +175,7 @@ h2 {
   font-size: clamp(1rem, 5vw, 2.1875rem);
   color: var(--text-slate);
   text-transform: uppercase;
+  text-align: center;
 }
 .firstques p,
 .secondques p,
@@ -199,9 +200,39 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
+@media screen and (max-width: 1199px) {
+  .firstques__options,
+  .secondques__options,
+  .thirdques__options,
+  .fourthques__options,
+  .fifthques__options,
+  .sixthques__options,
+  .seventhques__options,
+  .product-result__options {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (max-width: 980px) {
+  .firstques__options,
+  .secondques__options,
+  .thirdques__options,
+  .fourthques__options,
+  .fifthques__options,
+  .sixthques__options,
+  .seventhques__options,
+  .product-result__options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 599px) {
   .firstques__options,
   .secondques__options,
   .thirdques__options,
@@ -254,6 +285,10 @@ h2 {
   .product-result li {
     width: 100%;
   }
+}
+
+.seventhques__options {
+  justify-items: center;
 }
 
 button {

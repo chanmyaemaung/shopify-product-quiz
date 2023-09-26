@@ -96,6 +96,7 @@ h2 {
         font-size: clamp(1rem, 5vw, 2.1875rem);
         color: var(--text-slate);
         text-transform: uppercase;
+        text-align: center;
     }
 
     p {
@@ -108,9 +109,20 @@ h2 {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1rem;
+        // justify-items: center;
+        align-items: center;
+        justify-content: center;
         text-align: center;
 
+        @media screen and (max-width: 1199px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
         @media screen and (max-width: 980px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: 599px) {
             grid-template-columns: 1fr;
         }
     }
@@ -137,6 +149,10 @@ h2 {
         }
     }
 
+}
+
+.seventhques__options {
+    justify-items: center;
 }
 
 button {
