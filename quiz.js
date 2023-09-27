@@ -482,6 +482,8 @@ class ClQuiz {
 
     // Log the combined userChoose object
     console.log("User choices: ", allUserChoices);
+
+    // TODO: Implement the business logic to show the product recommendation
   }
 }
 
