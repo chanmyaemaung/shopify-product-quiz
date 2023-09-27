@@ -42,11 +42,10 @@
           <ul class="secondques__options" data-second-options>
             <li data-key="1">TORTOISE</li>
             <li data-key="2">CHARCOAL</li>
-            <li data-key="3">CHARCOAL</li>
-            <li data-key="4">RADAVIST KELP</li>
-            <li data-key="5">MATTE BROWN</li>
-            <li data-key="6">DUSK</li>
-            <li data-key="7">HONEY</li>
+            <li data-key="3">RADAVIST KELP</li>
+            <li data-key="4">MATTE BROWN</li>
+            <li data-key="5">DUSK</li>
+            <li data-key="6">HONEY</li>
           </ul>
           <button data-secondques-next class="cl--visually-hidden">
             Next Quiz
@@ -154,13 +153,19 @@
       <div class="product-result cl--hide" data-product-result>
         <div class="product-result__container">
           <h2>This is the place you choose, so please take a look.</h2>
-          <p>It's just a demo, so you can't buy it. Soon, we will add the function to buy it.</p>
+          <p>
+            It's just a demo, so you can't buy it. Soon, we will add the
+            function to buy it.
+          </p>
           <div id="userChooseQuiz"></div>
+
+          <button data-reset-quiz>Reset Quiz</button>
         </div>
       </div>
       <!-- end::Show the product results -->
     </div>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./quiz.js"></script>
   </body>
 </html>
