@@ -1,6 +1,7 @@
 @use "reset";
 @use "colors";
 @use 'utils';
+@use 'swal';
 
 .container {
     max-width: 95%;
