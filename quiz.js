@@ -1,4 +1,4 @@
-class ClQuiz {
+class OQuiz {
   constructor() {
     //* Greeting and intro
     this.greeting = document.querySelector("[data-greeting]");
@@ -45,13 +45,18 @@ class ClQuiz {
     //* Recommendation Result
     this.result = document.querySelector("[data-product-result]");
     this.selectedResult = document.getElementById("userChooseQuiz");
+    this.resetQuizBtn = document.querySelector("[data-reset-quiz]");
+
+    //* RX Link
+    this.rxLink =
+      "https://lensandframe.co/products/ombraz-classics-prescription-sunglasses-tortoise";
 
     //* Initiate the app
     this.init();
   }
 
   init() {
-    console.info("ClQuiz initiated!");
+    console.info("OQuiz initiated!");
 
     this.data();
     this.getStarted();
@@ -65,7 +70,7 @@ class ClQuiz {
   }
 
   data() {
-    window.ClQuizData = {
+    window.OQuizData = {
       userChoose: {
         first: [],
         second: [],
@@ -90,7 +95,7 @@ class ClQuiz {
 
   resetQuiz() {
     // Reset userChoose object
-    window.ClQuizData.userChoose = {
+    window.OQuizData.userChoose = {
       first: [],
       second: [],
       third: [],
@@ -202,7 +207,7 @@ class ClQuiz {
     this.firstOptions &&
       this.firstOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -236,7 +241,7 @@ class ClQuiz {
     this.secondOptions &&
       this.secondOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -270,7 +275,7 @@ class ClQuiz {
     this.thirdOptions &&
       this.thirdOptions.forEach((option, index) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -294,7 +299,35 @@ class ClQuiz {
             this.fourthQues.classList.remove("cl--hide");
           } else if (index === 2) {
             //! Redirect to the result page
-            alert("Redirect to the result page");
+            // swal('RX', "Custom RX powered by Lens & Frame Co. Handcrafted in California", "info")
+            swal({
+              title: "RX",
+              text: "CUSTOM RX POWERED BY LENS & FRAME CO. HANDCRAFTED IN CALIFORNIA",
+              icon: "info",
+              buttons: {
+                cancel: "No, thanks",
+                visit: {
+                  text: "Visit Now",
+                  value: "visit",
+                },
+              },
+            }).then((value) => {
+              switch (value) {
+                case "cancel":
+                  swal("No worries, you can still take the quiz!");
+                  break;
+                case "visit":
+                  swal("Redirecting...", {
+                    buttons: false,
+                    timer: 2000,
+                  }).then(() => {
+                    window.open(this.rxLink, "_blank");
+                  });
+                  break;
+                default:
+                  swal("No worries, you can still take the quiz!");
+              }
+            });
 
             // After showing the alert, you can proceed to the next question
             this.thirdQues.classList.add("cl--hide");
@@ -314,7 +347,7 @@ class ClQuiz {
     this.fourthOptions &&
       this.fourthOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -348,7 +381,7 @@ class ClQuiz {
     this.fifthOptions &&
       this.fifthOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -382,7 +415,7 @@ class ClQuiz {
     this.sixthOptions &&
       this.sixthOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -416,7 +449,7 @@ class ClQuiz {
     this.seventhOptions &&
       this.seventhOptions.forEach((option) => {
         const id = option.getAttribute("data-key");
-        const label = option.textContent;
+        const label = option.textContent.toLocaleLowerCase();
         option.addEventListener("click", (event) => {
           if (!option.classList.contains("cl--active")) {
             // Remove the "cl--active" class from all options
@@ -471,23 +504,53 @@ class ClQuiz {
     // Show the result
     this.result.classList.remove("cl--hide");
     this.selectedResult.innerHTML += `
-      <p style="color: steelblue;">Frame Style: ${allUserChoices.frameStyle}</p>
-      <p style="color: steelblue;">Frame Color: ${allUserChoices.frameColor}</p>
-      <p style="color: steelblue;">Product Type: ${allUserChoices.productType}</p>
-      <p style="color: steelblue;">Lens Color: ${allUserChoices.lensColor}</p>
-      <p style="color: steelblue;">Face Size: ${allUserChoices.faceSize}</p>
-      <p style="color: steelblue;">Custom Pair: ${allUserChoices.customPair}</p>
-      <p style="color: steelblue;">Yes or No: ${allUserChoices.yesNo}</p>
+      <p style="color: steelblue;">1 Frame Style: ${allUserChoices.frameStyle}</p>
+      <p style="color: steelblue;">2 Frame Color: ${allUserChoices.frameColor}</p>
+      <p style="color: steelblue;">3 Product Type: ${allUserChoices.productType}</p>
+      <p style="color: steelblue;">4 Lens Color: ${allUserChoices.lensColor}</p>
+      <p style="color: steelblue;">5 Face Size: ${allUserChoices.faceSize}</p>
+      <p style="color: steelblue;">6 Custom Pair: ${allUserChoices.customPair}</p>
+      <p style="color: steelblue;">7 Yes or No: ${allUserChoices.yesNo}</p>
     `;
+
+    this.resetQuizBtn &&
+      this.resetQuizBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        this.resetQuiz(); // Call the reset function
+      });
 
     // Log the combined userChoose object
     console.log("User choices: ", allUserChoices);
 
-    // TODO: Implement the business logic to show the product recommendation
+    this.fetchProduct("test-collection"); // Call the fetch product function
+  }
+
+  fetchProduct(collection) {
+    const cors = "https://corsproxy.io/?";
+    let url = `https://mo686jvut4hhui0k-19865583.shopifypreview.com/collections/${collection}?view=json`;
+
+    // Fetch the JSON data
+    fetch(cors + url)
+      .then((res) => res.json())
+      .then((data) => {
+        // TODO: Filter the data based on the user choices
+        const product = data.all_products;
+
+        // Just show JSON.stringify(product) via SweetAlert
+        swal({
+          title: "All Recommendations",
+          text: JSON.stringify(product, null, 2),
+          icon: "info",
+        });
+
+        console.log("Data from an API: ", product);
+      })
+      .catch((error) => console.log(error))
+      .finally(() => console.log("Fetch completed!"));
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  ClQuiz = new ClQuiz();
-  userChoose = window.ClQuizData.userChoose;
+  OQuiz = new OQuiz();
+  userChoose = window.OQuizData.userChoose;
 });
