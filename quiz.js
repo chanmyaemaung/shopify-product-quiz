@@ -503,6 +503,10 @@ class OQuiz {
 
     // Show the result
     this.result.classList.remove("cl--hide");
+
+    // Remove the selected result if it exists
+    if (this.selectedResult) this.selectedResult.innerHTML = "";
+
     this.selectedResult.innerHTML += `
       <p style="color: steelblue;">1 Frame Style: ${allUserChoices.frameStyle}</p>
       <p style="color: steelblue;">2 Frame Color: ${allUserChoices.frameColor}</p>
