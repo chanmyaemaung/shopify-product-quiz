@@ -1,0 +1,1542 @@
+{
+  "data": {
+    "collection_title": "Product Quiz Collection - Perform as API",
+    "count": 5,
+    "products": [
+      {
+        "id": 7831344808187,
+        "title": "Classics, Ombraz Armless Sunglasses",
+        "featured_image": "//ombraz.com/cdn/shop/products/classic_tortoise_grey_visorsOff_front_small.jpg?v=1669158671",
+        "available_variants": true,
+        "total_variants": 36,
+        "options": [
+          {
+            "name": "Frame Color",
+            "selected_value": "Tortoise",
+            "position": 1
+          },
+          {
+            "name": "Lens Options",
+            "selected_value": "Polarized Grey",
+            "position": 2
+          },
+          {
+            "name": "Frame Size",
+            "selected_value": "Regular",
+            "position": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 43556964401403,
+            "product_id": 7831344808187,
+            "quantity": 1023,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964434171,
+            "product_id": 7831344808187,
+            "quantity": 109,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964466939,
+            "product_id": 7831344808187,
+            "quantity": 305,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964499707,
+            "product_id": 7831344808187,
+            "quantity": 101,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964532475,
+            "product_id": 7831344808187,
+            "quantity": 253,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964565243,
+            "product_id": 7831344808187,
+            "quantity": 30,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559159890171,
+            "product_id": 7831344808187,
+            "quantity": 113,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559159922939,
+            "product_id": 7831344808187,
+            "quantity": 30,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559159955707,
+            "product_id": 7831344808187,
+            "quantity": 64,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559159988475,
+            "product_id": 7831344808187,
+            "quantity": 26,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160021243,
+            "product_id": 7831344808187,
+            "quantity": 99,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160054011,
+            "product_id": 7831344808187,
+            "quantity": 4,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964598011,
+            "product_id": 7831344808187,
+            "quantity": 1235,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964630779,
+            "product_id": 7831344808187,
+            "quantity": 138,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964663547,
+            "product_id": 7831344808187,
+            "quantity": 226,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964696315,
+            "product_id": 7831344808187,
+            "quantity": 37,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964729083,
+            "product_id": 7831344808187,
+            "quantity": 161,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964761851,
+            "product_id": 7831344808187,
+            "quantity": 66,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160086779,
+            "product_id": 7831344808187,
+            "quantity": 123,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160119547,
+            "product_id": 7831344808187,
+            "quantity": 52,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160152315,
+            "product_id": 7831344808187,
+            "quantity": 0,
+            "price": "120.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160185083,
+            "product_id": 7831344808187,
+            "quantity": 19,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160217851,
+            "product_id": 7831344808187,
+            "quantity": 35,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160250619,
+            "product_id": 7831344808187,
+            "quantity": 5,
+            "price": "120.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964794619,
+            "product_id": 7831344808187,
+            "quantity": 364,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964827387,
+            "product_id": 7831344808187,
+            "quantity": 28,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964860155,
+            "product_id": 7831344808187,
+            "quantity": 227,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964892923,
+            "product_id": 7831344808187,
+            "quantity": 67,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43556964925691,
+            "product_id": 7831344808187,
+            "quantity": 197,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43556964958459,
+            "product_id": 7831344808187,
+            "quantity": 65,
+            "price": "160.00",
+            "option_1": "Matte Brown",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160283387,
+            "product_id": 7831344808187,
+            "quantity": 55,
+            "price": "145.00",
+            "option_1": "Matte Brown",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160316155,
+            "product_id": 7831344808187,
+            "quantity": 41,
+            "price": "145.00",
+            "option_1": "Matte Brown",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160348923,
+            "product_id": 7831344808187,
+            "quantity": 65,
+            "price": "145.00",
+            "option_1": "Matte Brown",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160381691,
+            "product_id": 7831344808187,
+            "quantity": 5,
+            "price": "145.00",
+            "option_1": "Matte Brown",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 43559160414459,
+            "product_id": 7831344808187,
+            "quantity": 82,
+            "price": "120.00",
+            "option_1": "Matte Brown",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43559160447227,
+            "product_id": 7831344808187,
+            "quantity": 13,
+            "price": "120.00",
+            "option_1": "Matte Brown",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          }
+        ]
+      },
+      {
+        "id": 7721244623099,
+        "title": "Dolomite, Ombraz Armless Sunglasses",
+        "featured_image": "//ombraz.com/cdn/shop/products/dolomite_charcoal_grey_visorsOff_front_small.jpg?v=1669244711",
+        "available_variants": true,
+        "total_variants": 24,
+        "options": [
+          {
+            "name": "Frame Color",
+            "selected_value": "Tortoise",
+            "position": 1
+          },
+          {
+            "name": "Lens Options",
+            "selected_value": "Polarized Grey",
+            "position": 2
+          },
+          {
+            "name": "Frame Size",
+            "selected_value": "Regular",
+            "position": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 43277538197755,
+            "product_id": 7721244623099,
+            "quantity": 398,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538230523,
+            "product_id": 7721244623099,
+            "quantity": 119,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43277538263291,
+            "product_id": 7721244623099,
+            "quantity": 128,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538296059,
+            "product_id": 7721244623099,
+            "quantity": 81,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43277538328827,
+            "product_id": 7721244623099,
+            "quantity": 114,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538361595,
+            "product_id": 7721244623099,
+            "quantity": 113,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 43277538394363,
+            "product_id": 7721244623099,
+            "quantity": 79,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538427131,
+            "product_id": 7721244623099,
+            "quantity": 51,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43277538459899,
+            "product_id": 7721244623099,
+            "quantity": 61,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538492667,
+            "product_id": 7721244623099,
+            "quantity": 34,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43277538525435,
+            "product_id": 7721244623099,
+            "quantity": 132,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43277538558203,
+            "product_id": 7721244623099,
+            "quantity": 42,
+            "price": "120.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095874830587,
+            "product_id": 7721244623099,
+            "quantity": 793,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095874863355,
+            "product_id": 7721244623099,
+            "quantity": 231,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095874896123,
+            "product_id": 7721244623099,
+            "quantity": 158,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095874928891,
+            "product_id": 7721244623099,
+            "quantity": 195,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095874961659,
+            "product_id": 7721244623099,
+            "quantity": 295,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095874994427,
+            "product_id": 7721244623099,
+            "quantity": 211,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095933714683,
+            "product_id": 7721244623099,
+            "quantity": 80,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095933747451,
+            "product_id": 7721244623099,
+            "quantity": 32,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095933780219,
+            "product_id": 7721244623099,
+            "quantity": 58,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095933812987,
+            "product_id": 7721244623099,
+            "quantity": 42,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43095933845755,
+            "product_id": 7721244623099,
+            "quantity": 221,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43095933878523,
+            "product_id": 7721244623099,
+            "quantity": 10,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          }
+        ]
+      },
+      {
+        "id": 7666039390459,
+        "title": "Teton, Ombraz Armless Sunglasses",
+        "featured_image": "//ombraz.com/cdn/shop/products/teton_charcoal_grey_visorsOff_front_small.jpg?v=1669165977",
+        "available_variants": true,
+        "total_variants": 36,
+        "options": [
+          {
+            "name": "Frame Color",
+            "selected_value": "Tortoise",
+            "position": 1
+          },
+          {
+            "name": "Lens Options",
+            "selected_value": "Polarized Grey",
+            "position": 2
+          },
+          {
+            "name": "Frame Size",
+            "selected_value": "Regular",
+            "position": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 42925711196411,
+            "product_id": 7666039390459,
+            "quantity": 855,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711229179,
+            "product_id": 7666039390459,
+            "quantity": 342,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711261947,
+            "product_id": 7666039390459,
+            "quantity": 588,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711294715,
+            "product_id": 7666039390459,
+            "quantity": 306,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711327483,
+            "product_id": 7666039390459,
+            "quantity": 227,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711360251,
+            "product_id": 7666039390459,
+            "quantity": 131,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711393019,
+            "product_id": 7666039390459,
+            "quantity": 146,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711425787,
+            "product_id": 7666039390459,
+            "quantity": 87,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711458555,
+            "product_id": 7666039390459,
+            "quantity": 52,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711491323,
+            "product_id": 7666039390459,
+            "quantity": 24,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711524091,
+            "product_id": 7666039390459,
+            "quantity": 84,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711556859,
+            "product_id": 7666039390459,
+            "quantity": 41,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711589627,
+            "product_id": 7666039390459,
+            "quantity": 600,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711622395,
+            "product_id": 7666039390459,
+            "quantity": 191,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711655163,
+            "product_id": 7666039390459,
+            "quantity": 476,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711687931,
+            "product_id": 7666039390459,
+            "quantity": 263,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711720699,
+            "product_id": 7666039390459,
+            "quantity": 261,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711753467,
+            "product_id": 7666039390459,
+            "quantity": 109,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711786235,
+            "product_id": 7666039390459,
+            "quantity": 113,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711819003,
+            "product_id": 7666039390459,
+            "quantity": 52,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711851771,
+            "product_id": 7666039390459,
+            "quantity": 60,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711884539,
+            "product_id": 7666039390459,
+            "quantity": 31,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 42925711917307,
+            "product_id": 7666039390459,
+            "quantity": 42,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925711950075,
+            "product_id": 7666039390459,
+            "quantity": 41,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919240986875,
+            "product_id": 7666039390459,
+            "quantity": 120,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241019643,
+            "product_id": 7666039390459,
+            "quantity": 51,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919241052411,
+            "product_id": 7666039390459,
+            "quantity": 107,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241085179,
+            "product_id": 7666039390459,
+            "quantity": 25,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919241117947,
+            "product_id": 7666039390459,
+            "quantity": 75,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241150715,
+            "product_id": 7666039390459,
+            "quantity": 36,
+            "price": "160.00",
+            "option_1": "Honey",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919241183483,
+            "product_id": 7666039390459,
+            "quantity": 22,
+            "price": "145.00",
+            "option_1": "Honey",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241216251,
+            "product_id": 7666039390459,
+            "quantity": 23,
+            "price": "145.00",
+            "option_1": "Honey",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919241249019,
+            "product_id": 7666039390459,
+            "quantity": 12,
+            "price": "145.00",
+            "option_1": "Honey",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241281787,
+            "product_id": 7666039390459,
+            "quantity": 6,
+            "price": "145.00",
+            "option_1": "Honey",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43919241314555,
+            "product_id": 7666039390459,
+            "quantity": 9,
+            "price": "130.00",
+            "option_1": "Honey",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43919241347323,
+            "product_id": 7666039390459,
+            "quantity": 5,
+            "price": "130.00",
+            "option_1": "Honey",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          }
+        ]
+      },
+      {
+        "id": 7666060296443,
+        "title": "Viale, Ombraz Armless Sunglasses",
+        "featured_image": "//ombraz.com/cdn/shop/products/viale_charcoal_grey_visorsOff_front_small.jpg?v=1669165505",
+        "available_variants": true,
+        "total_variants": 36,
+        "options": [
+          {
+            "name": "Frame Color",
+            "selected_value": "Tortoise",
+            "position": 1
+          },
+          {
+            "name": "Lens Options",
+            "selected_value": "Polarized Grey",
+            "position": 2
+          },
+          {
+            "name": "Frame Size",
+            "selected_value": "Regular",
+            "position": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 42925733708027,
+            "product_id": 7666060296443,
+            "quantity": 358,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733118203,
+            "product_id": 7666060296443,
+            "quantity": 236,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733740795,
+            "product_id": 7666060296443,
+            "quantity": 173,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733150971,
+            "product_id": 7666060296443,
+            "quantity": 115,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733773563,
+            "product_id": 7666060296443,
+            "quantity": 244,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733183739,
+            "product_id": 7666060296443,
+            "quantity": 71,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733806331,
+            "product_id": 7666060296443,
+            "quantity": 106,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733216507,
+            "product_id": 7666060296443,
+            "quantity": 94,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733839099,
+            "product_id": 7666060296443,
+            "quantity": 26,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733249275,
+            "product_id": 7666060296443,
+            "quantity": 12,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733871867,
+            "product_id": 7666060296443,
+            "quantity": 23,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733282043,
+            "product_id": 7666060296443,
+            "quantity": 35,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733904635,
+            "product_id": 7666060296443,
+            "quantity": 179,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733314811,
+            "product_id": 7666060296443,
+            "quantity": 226,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733937403,
+            "product_id": 7666060296443,
+            "quantity": 227,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733347579,
+            "product_id": 7666060296443,
+            "quantity": 108,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925733970171,
+            "product_id": 7666060296443,
+            "quantity": 238,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733380347,
+            "product_id": 7666060296443,
+            "quantity": 103,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734002939,
+            "product_id": 7666060296443,
+            "quantity": 95,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733413115,
+            "product_id": 7666060296443,
+            "quantity": 86,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734035707,
+            "product_id": 7666060296443,
+            "quantity": 24,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733445883,
+            "product_id": 7666060296443,
+            "quantity": 32,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734068475,
+            "product_id": 7666060296443,
+            "quantity": 38,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733478651,
+            "product_id": 7666060296443,
+            "quantity": 35,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734101243,
+            "product_id": 7666060296443,
+            "quantity": 145,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733511419,
+            "product_id": 7666060296443,
+            "quantity": 65,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734134011,
+            "product_id": 7666060296443,
+            "quantity": 174,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733544187,
+            "product_id": 7666060296443,
+            "quantity": 89,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734166779,
+            "product_id": 7666060296443,
+            "quantity": 155,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733576955,
+            "product_id": 7666060296443,
+            "quantity": 62,
+            "price": "160.00",
+            "option_1": "Dusk",
+            "option_2": "Polarized Yellow",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734199547,
+            "product_id": 7666060296443,
+            "quantity": 64,
+            "price": "145.00",
+            "option_1": "Dusk",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733609723,
+            "product_id": 7666060296443,
+            "quantity": 72,
+            "price": "145.00",
+            "option_1": "Dusk",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734232315,
+            "product_id": 7666060296443,
+            "quantity": 29,
+            "price": "145.00",
+            "option_1": "Dusk",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733642491,
+            "product_id": 7666060296443,
+            "quantity": 24,
+            "price": "145.00",
+            "option_1": "Dusk",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Narrow"
+          },
+          {
+            "id": 42925734265083,
+            "product_id": 7666060296443,
+            "quantity": 51,
+            "price": "130.00",
+            "option_1": "Dusk",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 42925733675259,
+            "product_id": 7666060296443,
+            "quantity": 23,
+            "price": "130.00",
+            "option_1": "Dusk",
+            "option_2": "Blue-Blocking",
+            "option_3": "Narrow"
+          }
+        ]
+      },
+      {
+        "id": 7721326018811,
+        "title": "Leggero, Ombraz Armless Sunglasses",
+        "featured_image": "//ombraz.com/cdn/shop/products/legerro_charcoal_grey_visorsOff_front_small.jpg?v=1669162914",
+        "available_variants": true,
+        "total_variants": 24,
+        "options": [
+          {
+            "name": "Frame Color",
+            "selected_value": "Tortoise",
+            "position": 1
+          },
+          {
+            "name": "Lens Options",
+            "selected_value": "Polarized Grey",
+            "position": 2
+          },
+          {
+            "name": "Frame Size",
+            "selected_value": "Regular",
+            "position": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 43096069112059,
+            "product_id": 7721326018811,
+            "quantity": 126,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069144827,
+            "product_id": 7721326018811,
+            "quantity": 135,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096069177595,
+            "product_id": 7721326018811,
+            "quantity": 77,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069210363,
+            "product_id": 7721326018811,
+            "quantity": 97,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096069243131,
+            "product_id": 7721326018811,
+            "quantity": 107,
+            "price": "160.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069275899,
+            "product_id": 7721326018811,
+            "quantity": 39,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096093884667,
+            "product_id": 7721326018811,
+            "quantity": 38,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096093917435,
+            "product_id": 7721326018811,
+            "quantity": 20,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096093950203,
+            "product_id": 7721326018811,
+            "quantity": 3,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096093982971,
+            "product_id": 7721326018811,
+            "quantity": 21,
+            "price": "145.00",
+            "option_1": "Tortoise",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096094015739,
+            "product_id": 7721326018811,
+            "quantity": 27,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096094048507,
+            "product_id": 7721326018811,
+            "quantity": 10,
+            "price": "130.00",
+            "option_1": "Tortoise",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096069308667,
+            "product_id": 7721326018811,
+            "quantity": 457,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069341435,
+            "product_id": 7721326018811,
+            "quantity": 274,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096069374203,
+            "product_id": 7721326018811,
+            "quantity": 85,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069406971,
+            "product_id": 7721326018811,
+            "quantity": 52,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096069439739,
+            "product_id": 7721326018811,
+            "quantity": 77,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096069472507,
+            "product_id": 7721326018811,
+            "quantity": 67,
+            "price": "160.00",
+            "option_1": "Charcoal",
+            "option_2": "Polarized Yellow",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096094081275,
+            "product_id": 7721326018811,
+            "quantity": 55,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096094114043,
+            "product_id": 7721326018811,
+            "quantity": 12,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Grey",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096094146811,
+            "product_id": 7721326018811,
+            "quantity": 31,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096094179579,
+            "product_id": 7721326018811,
+            "quantity": 20,
+            "price": "145.00",
+            "option_1": "Charcoal",
+            "option_2": "Non-Polarized Brown",
+            "option_3": "XL"
+          },
+          {
+            "id": 43096094212347,
+            "product_id": 7721326018811,
+            "quantity": 69,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "Regular"
+          },
+          {
+            "id": 43096094245115,
+            "product_id": 7721326018811,
+            "quantity": 25,
+            "price": "130.00",
+            "option_1": "Charcoal",
+            "option_2": "Blue-Blocking",
+            "option_3": "XL"
+          }
+        ]
+      }
+    ]
+  }
+}
