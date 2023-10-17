@@ -113,6 +113,7 @@ class OQuiz {
     this.fifthQues.classList.add("cl--hide");
     this.sixthQues.classList.add("cl--hide");
     this.seventhQues.classList.add("cl--hide");
+    this.result.classList.add("cl--hide");
 
     // Reset all option elements to their initial state
     this.firstOptions.forEach((option) => {
@@ -526,28 +527,65 @@ class OQuiz {
     // Log the combined userChoose object
     console.log("User choices: ", allUserChoices);
 
-    this.fetchProduct("test-collection"); // Call the fetch product function
+    this.fetchProduct("quiz-api"); // Call the fetch product function
   }
 
   fetchProduct(collection) {
     const cors = "https://corsproxy.io/?";
-    let url = `https://mo686jvut4hhui0k-19865583.shopifypreview.com/collections/${collection}?view=json`;
+    let url = `https://ab9hxha4u6sd8nxk-19865583.shopifypreview.com/collections/${collection}?view=product-quiz-api`;
 
     // Fetch the JSON data
     fetch(cors + url)
       .then((res) => res.json())
-      .then((data) => {
-        // TODO: Filter the data based on the user choices
-        const product = data.all_products;
+      .then(({ data: { products } }) => {
+        // Extract user choices
+        const { frameColor, lensOptions, frameSize } = OQuizData.userChoose;
 
-        // Just show JSON.stringify(product) via SweetAlert
-        swal({
-          title: "All Recommendations",
-          text: JSON.stringify(product, null, 2),
-          icon: "info",
+        // Filter the products based on user choices
+        const filteredProducts = products.filter((product) => {
+          const { options } = product;
+
+          console.log("Product options: ", options);
+
+          // Find the option values for each choice
+          const frameColorOption = options.find(
+            (opt) => opt.name === "Frame Color"
+          );
+          const lensOptionsOption = options.find(
+            (opt) => opt.name === "Lens Options"
+          );
+          const frameSizeOption = options.find(
+            (opt) => opt.name === "Frame Size"
+          );
+
+          // Check if the product's options match the user's choices
+          return (
+            frameColorOption.selected_value === frameColor &&
+            lensOptionsOption.selected_value === lensOptions &&
+            frameSizeOption.selected_value === frameSize
+          );
         });
 
-        console.log("Data from an API: ", product);
+        // Display the results
+        if (filteredProducts.length > 0) {
+          swal({
+            title: "Filtered Recommendations",
+            text: JSON.stringify(filteredProducts, null, 2),
+            icon: "info",
+          });
+        } else {
+          // If no matching products were found
+          swal({
+            title: "No Matching Products Found",
+            text: "We couldn't find any products matching your choices, but we can still provide recommendations or further assistance.",
+            icon: "info",
+            buttons: ["OK", "Get Assistance"],
+          }).then((value) => {
+            if (value === "Get Assistance") {
+              window.location.href = "contact.html"; // Redirect to the contact page
+            }
+          });
+        }
       })
       .catch((error) => console.log(error))
       .finally(() => console.log("Fetch completed!"));
