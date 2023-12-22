@@ -1,15 +1,20 @@
-# Shopify Product Quiz Form (Without using Apps)
+# Shopify Recommend Product Quiz (Without using Apps)
 
-The goal of this quiz is to ask customers a series of questions and based on their answer recommend a pair of sunglasses for them which they can add with one click. The seven screens for the quiz will be:
+I'd developed a quiz for Shopify store to recommend products to customers. The quiz is based on the customer's answers to the questions. The quiz is developed using Shopify's [Liquid](https://shopify.github.io/liquid/) and [JavaScript](https://www.javascript.com/). The quiz is developed without using any apps. It's a just simple quiz tha can be easily integrated into any Shopify store.
 
-## Instructions
 
-1. What frame style do you prefer (5 options)
+## WHO AM I?
 
-2. What color frames do you want? (3 or 2 depending on the frame selection)
-3. Do you want polarized, non polarized, RX or blue blocking? (4 options)
-4. If they select polarized or unpolarized, ask them what color they want. If they answer blue blockers skip to 5. If they select RX direct them to the product page with the first two options (frame and lens) selected.
-5. What size is your face? (Would be great to use sizing guides here)
-6. We got your custom pair of sunnies! Quick last question for you? Do you participate in any of the following activities? Kayaking, skiing, glacial stuff, stc.
-7. Sweet, we think our side shields would be helpful for you. Yes, No Thank you, Change My Answers (links to the frame style pdp they picked). The rest add to cart w/ or without side shields and redirects to checkout.”
+My name is Chen and I'm a Shopify Expert and a Full Stack Web Developer. I've been working with Shopify for the last 3 years. I've developed many Shopify stores. I've also developed many Shopify stores without using any apps. I've developed this quiz for one of my clients. I'm sharing this quiz with you so that you can also use it in your Shopify store.
 
+## WARNING
+
+This quiz is not fully refactored. It's just a simple quiz web app. I'll refactor it in the future.
+
+## CONTRIBUTION
+
+If you want to contribute to this project, you're most welcome. You can contribute to this project by adding more questions and answers to the quiz. You can also contribute to this project by improving the code. You can also contribute to this project by improving the UI/UX of the quiz.
+
+## CONTACT ME
+
+If you want to contact me, you can contact me at [Chen Lay](mailto:mr.chenlay@gmail.com).

@@ -17,3 +17,12 @@
     background-color: var(--primary-bg-color);
     color: var(--text-white);
 }
+
+.hide {
+    display: none !important;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

@@ -1,185 +1,201 @@
 @use "reset";
+@use "base-fonts";
 @use "colors";
 @use 'utils';
 @use 'swal';
 
-.container {
-    max-width: 95%;
-    width: 81.25rem;
-    margin-inline: auto;
-    padding: .3125rem;
-
-    @media screen and (max-width: 980px) {
-        max-width: 48rem;
-    }
-}
-
-h1 {
-    font-size: 3.3125rem;
-    font-weight: 700;
-}
-
-h2 {
-    text-wrap: balance;
-}
-
-//* Greeting and intro
-.greeting {
+#quizApp {
+    max-width: 1200px;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    margin-inline: auto;
+    padding: 15px;
 
     display: grid;
     place-items: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.intro {
-    padding: 1.5625rem;
-    // Inset box shadow
-    box-shadow: inset 0 0 25px .125rem var(--primary-bg-color);
-    border-radius: 5px;
-    text-align: center;
+
+.welcome-screen,
+.question-screen {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
 
-    h1 {
-        font-size: clamp(1rem, 5vw, 3.3125rem);
-        color: var(--text-slate);
+    &.hide {
+        display: none;
+        opacity: 0;
+    }
+
+
+    h1.title,
+    .question-title {
+        font-size: 5.6rem;
+        text-transform: uppercase;
+        font-size: 56px;
+        letter-spacing: -1px;
+        font-weight: 700;
+        line-height: .8em;
+
+        @media screen and (max-width: 768px) {
+            font-size: 3.5rem;
+        }
+    }
+
+    p.description,
+    .question-desc {
+        font-family: "Montserrat Light", sans-serif;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: 0;
+        color: #57575c;
     }
 
     button {
+        background-color: var(--primary-bg-color);
         cursor: pointer;
-        border: 1px solid var(--primary-bg-color);
-        padding: 5px 15px;
-        border-radius: 5px;
-        max-width: 300px;
-        margin-inline: auto;
-        color: var(--text-slate);
-        font-size: clamp(.75rem, 2vw, 1.25rem);
-        transition: all .3s ease-in-out;
+        padding: 14px 40px;
+        font-size: 2.2rem;
+        background: #9caf89;
+        color: white;
+        transition: opacity .3s ease-in-out;
 
         &:hover {
-            background-color: var(--primary-bg-color);
-            color: var(--text-white);
-            // Slightly box shadow
-            box-shadow: 0 3px 3px .125rem var(--primary-bg-color);
+            opacity: .8;
         }
 
-        &:active {
-            transform: translateY(3px);
-        }
-    }
-}
-
-//* First Question
-.firstques,
-.secondques,
-.thirdques,
-.fourthques,
-.fifthques,
-.sixthques,
-.seventhques,
-.product-result {
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-
-    display: grid;
-    place-items: center;
-
-    &__container {
-        button {
-            margin-top: 5%;
+        @media screen and (max-width: 768px) {
+            padding: 10px 20px !important;
+            font-size: 1.5rem !important;
         }
     }
 
-    h2 {
-        font-size: clamp(1rem, 5vw, 2.1875rem);
-        color: var(--text-slate);
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    p {
-        margin: 25px 0;
-        color: var(--text-slate);
-        font-weight: bold;
-    }
-
-    &__options {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1rem;
-        // justify-items: center;
+    .button-wrapper {
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        text-align: center;
+        gap: 1rem;
+        max-width: 85%;
+        width: 100%;
 
-        @media screen and (max-width: 1199px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        @media screen and (max-width: 980px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        @media screen and (max-width: 599px) {
-            grid-template-columns: 1fr;
+        button {
+            font-size: 1.6rem;
+            padding: 10px 20px;
         }
     }
 
-    li {
+    .question-list {
         display: flex;
         justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 25px auto;
 
-        border: 1px solid #333;
-        max-width: 250px;
-        width: 100%;
-        padding: 1rem;
-        text-transform: uppercase;
-        // Inset box shadow
-        box-shadow: 1px 1px 3px .125rem var(--primary-bg-color);
-        border: 1px solid var(--primary-bg-color);
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all .3s ease-in-out;
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
-        @media screen and (max-width: 980px) {
-            width: 100%;
+        li {
+            list-style: none;
+            padding: 10px 20px;
+            // background-color: rgba(0, 0, 0, 0.85);
+            border: 1px solid rgba(0, 0, 0, 0.85);
+            color: #57575c;
+            cursor: pointer;
+            transition: opacity .3s ease-in-out;
+            font-size: 1.8rem;
+
+            &:hover {
+                opacity: .8;
+            }
+
+            &.active {
+                background-color: rgba(0, 0, 0, 0.85);
+                color: white;
+            }
+
+            @media screen and (max-width: 768px) {
+                padding: 10px 20px !important;
+                font-size: 1.5rem !important;
+                width: 100%;
+            }
         }
     }
-
 }
 
-.seventhques__options {
-    justify-items: center;
+.title {
+    font-size: 3rem;
+    margin: 30px auto;
 }
 
-button {
-    cursor: pointer;
-    border: 1px solid var(--primary-bg-color);
-    padding: 5px 15px;
+// Products list
+.ombraz__products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 900px;
+    padding-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
+    .ombraz__product {
+        border: 1px solid #57575c;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0.95);
+        max-height: 450px;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+    }
+}
+
+.ombraz__product-buy-now {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #57575c;
+    color: white;
+    font-size: 2rem;
     border-radius: 5px;
-    max-width: 300px;
-    margin-inline: auto;
-    color: var(--text-slate);
-    font-size: clamp(.75rem, 2vw, 1rem);
-    transition: all .3s ease-in-out;
-    float: right;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
 
     &:hover {
-        background-color: var(--primary-bg-color);
-        color: var(--text-white);
-        // Slightly box shadow
-        box-shadow: 0 3px 3px .125rem var(--primary-bg-color);
+        opacity: .8;
     }
-
-    &:active {
-        transform: translateY(3px);
-    }
-}
-
-[data-seventhques-prev] {
-    float: left;
 }
